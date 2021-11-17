@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="login usuario" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-15T23:30:28" hostname="LAPTOP-HP26H0VV" time="7.556">
+  <properties/>
+  <testcase name="logar usuario" classname="login usuario" time="7.556"/>
+  <system-out><![CDATA[
+Scenario: logar usuario                                   ?[90m# src/test/resources/features/login.feature:2?[0m
+  ?[32mGiven ?[0m?[32musuario deseja logar-se em automationpractice.com?[0m ?[90m# steps.login.usuarioDesejaLogarSeEmAutomationpracticeCom()?[0m
+  ?[32mWhen ?[0m?[32mnavego para o menu de login?[0m                        ?[90m# steps.login.navegoParaOMenuDeLogin()?[0m
+  ?[32mAnd ?[0m?[32mpreencho os campos com ?[0m?[32m?[1m"usuario"?[0m?[32m e ?[0m?[32m?[1m"senha"?[0m          ?[90m# steps.login.preenchoOsCamposComE(java.lang.String,java.lang.String)?[0m
+  ?[32mThen ?[0m?[32mfinalizo o login de cliente?[0m                        ?[90m# steps.login.finalizoOLoginDeCliente()?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 4557
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov. 15, 2021 8:30:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+</testsuite>

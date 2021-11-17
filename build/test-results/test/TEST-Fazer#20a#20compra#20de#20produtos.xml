@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Fazer a compra de produtos" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-15T23:29:54" hostname="LAPTOP-HP26H0VV" time="33.976">
+  <properties/>
+  <testcase name="fluxo de venda cliente logado" classname="Fazer a compra de produtos" time="33.976"/>
+  <system-out><![CDATA[
+Scenario: fluxo de venda cliente logado                                     ?[90m# src/test/resources/features/historiaUsuario1.feature:2?[0m
+  ?[32mGiven ?[0m?[32m: usuario esteja logado no portal?[0m                                   ?[90m# steps.historiaUsuario1.usuarioEstejaLogadoNoPortal()?[0m
+  ?[32mWhen ?[0m?[32m: usuario escolhe por Printed Chiffon Dress na cor verde e tamanho M?[0m ?[90m# steps.historiaUsuario1.usuarioEscolhePorPrintedChiffonDressNaCorVerdeETamanhoM()?[0m
+  ?[32mAnd ?[0m?[32m: Faded Short Sleeve T-shirts na cor azul?[0m                             ?[90m# steps.historiaUsuario1.fadedShortSleeveTShirtsNaCorAzul()?[0m
+  ?[32mAnd ?[0m?[32m: Blouse na quantidade dois?[0m                                           ?[90m# steps.historiaUsuario1.blouseNaQuantidade()?[0m
+  ?[32mAnd ?[0m?[32m: Printed Dress?[0m                                                       ?[90m# steps.historiaUsuario1.printedDress()?[0m
+  ?[32mThen ?[0m?[32m: produtos sao selecionados para compra?[0m                              ?[90m# steps.historiaUsuario1.produtosSaoSelecionadosParaCompra()?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 15263
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov. 15, 2021 8:29:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+</testsuite>

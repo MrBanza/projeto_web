@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cadastrar usuario" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-15T23:29:44" hostname="LAPTOP-HP26H0VV" time="10.552">
+  <properties/>
+  <testcase name="fizer o cadastro de um novo usuario" classname="cadastrar usuario" time="10.552"/>
+  <system-out><![CDATA[
+Scenario: fizer o cadastro de um novo usuario                 ?[90m# src/test/resources/features/cadastro.feature:2?[0m
+  ?[32mGiven ?[0m?[32musuario deseja cadastrar-se em automationpractice.com?[0m ?[90m# steps.cadastro.usuarioDesejaCadastrarSeEmAutomationpracticeCom()?[0m
+  ?[32mWhen ?[0m?[32mnavegar para o menu de login?[0m                           ?[90m# steps.cadastro.navegarParaOMenuDeLogin()?[0m
+  ?[32mAnd ?[0m?[32madiciono endereco de email?[0m                              ?[90m# steps.cadastro.adicionoEnderecoDeEmail()?[0m
+  ?[32mAnd ?[0m?[32mclico em create an account?[0m                              ?[90m# steps.cadastro.clicoEmCreateAnAccount()?[0m
+  ?[32mAnd ?[0m?[32mredirecionado a tela de cadastro?[0m                        ?[90m# steps.cadastro.redirecionadoATelaDeCadastro()?[0m
+  ?[32mAnd ?[0m?[32mpreencho os campos necessarios?[0m                          ?[90m# steps.cadastro.preenchoOsCamposNecessarios()?[0m
+  ?[32mThen ?[0m?[32mnovo usuario cadastrado para logar na pagina?[0m           ?[90m# steps.cadastro.novoUsuarioCadastradoParaLogarNaPagina()?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 45002
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov. 15, 2021 8:29:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+</testsuite>
